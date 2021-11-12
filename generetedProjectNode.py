@@ -66,6 +66,7 @@ def main():
     navegateDir(dirNameArgument)
     executeListCommands(listCommands)
     generetedFile('.gitignore')
+    generetedFile('.env')
     writingFile('.gitignore', "node_modules")
     generetedDir('src')
     navegateDir('src')
